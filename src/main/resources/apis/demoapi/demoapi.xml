@@ -1,0 +1,9 @@
+<api xmlns="urn:enonic:xp:model:1.0">
+  <display-name >Demo API</display-name>
+  <description>API for demo</description>
+  <documentation-url>https://developer.enonic.com/docs/api</documentation-url>
+  <mount>true</mount>
+  <allow>
+    <principal>role:system.everyone</principal>
+  </allow>
+</api>
