@@ -1,2 +1,12 @@
-<site>
+<site xmlns="urn:enonic:xp:model:1.0">
+  <form/>
+  <mappings>
+    <mapping controller="/lib/example.js">
+      <pattern>/.*</pattern>
+    </mapping>
+  </mappings>
+  <apis>
+    <!--<api>demoapi</api>-->
+    <!--<api>com.enonic.app.guillotine:graphql</api>-->
+  </apis>
 </site>
