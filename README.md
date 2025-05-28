@@ -41,4 +41,17 @@ http://localhost:8080/site/xp8-demo-project/master/demo-site/_/com.enonic.app.gu
 
 Turn on Guillotine API on site - it gives 200.
 http://localhost:8080/site/xp8-demo-project/master/demo-site/_/com.enonic.app.guillotine:graphql
- 
+
+
+Demo VHost Context
+
+
+[com.enonic.xp.web.vhost.cfg](../../.enonic/sandboxes/xp8demo/home/config/com.enonic.xp.web.vhost.cfg)
+
+We have two vhosts For same API. for Norway and for USA (East). 
+Copy demoapi from extra/.
+
+Try vhost URLs. See That context attributes are read from vhost config.
+http://api-norway.example.internal:8080/api/xp8demo:demoapi
+
+http://api-us-east.example.internal:8080/api/xp8demo:demoapi
