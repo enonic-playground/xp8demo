@@ -48,8 +48,8 @@ Demo VHost Context
 
 [com.enonic.xp.web.vhost.cfg](../../.enonic/sandboxes/xp8demo/home/config/com.enonic.xp.web.vhost.cfg)
 
-We have two vhosts For same API. for Norway and for USA (East). 
-Copy demoapi from extra/.
+We have two vhosts For same API. for Norway and for the USA (East). 
+Replace with [demoapi.js](extra/demoapi.js).
 
 Try vhost URLs. See That context attributes are read from vhost config.
 http://api-norway.example.internal:8080/api/xp8demo:demoapi
