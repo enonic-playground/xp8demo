@@ -34,8 +34,6 @@ http://localhost:8080/site/xp8-demo-project/master/demo-site/_/xp8demo:demoapi
 Turn on API on site. And Try API again - it gives 200.
 http://localhost:8080/site/xp8-demo-project/master/demo-site/_/xp8demo:demoapi
 
-
-If Guillotine bug is fixed
 Try Guillotine - it gives 404
 http://localhost:8080/site/xp8-demo-project/master/demo-site/_/com.enonic.app.guillotine:graphql
 
