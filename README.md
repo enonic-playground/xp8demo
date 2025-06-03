@@ -25,8 +25,6 @@ Add xp8demo app to a Site
 Show Demo Site
 http://localhost:8080/site/xp8-demo-project/master/demo-site
 
-Try Service - it gives 200.
-http://localhost:8080/site/xp8-demo-project/master/demo-site/_/service/xp8demo/demoservice
 
 Try API - it gives 404
 http://localhost:8080/site/xp8-demo-project/master/demo-site/_/xp8demo:demoapi
