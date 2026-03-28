@@ -1,0 +1,3 @@
+mappings:
+  - pattern: "/.*"
+    controller: "/lib/example.js
