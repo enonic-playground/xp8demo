@@ -1,7 +1,8 @@
+kind: API
 allow:
 - "role:system.everyone"
-displayName: "Demo API"
+title: "Demo API"
 description: "API for demo"
 documentationUrl: "https://developer.enonic.com/docs/api"
-mount:
+mount: []
   #- "web"

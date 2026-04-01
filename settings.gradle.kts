@@ -1,9 +1,5 @@
-rootProject.name = providers.gradleProperty("projectName").get()
-
-dependencyResolutionManagement {
-    versionCatalogs {
-        configureEach {
-            version("xp", providers.gradleProperty("xpVersion").get())
-        }
-    }
+plugins {
+    id("com.enonic.xp.settings") version "4.0.0-A3"
 }
+
+rootProject.name = providers.gradleProperty("projectName").get()

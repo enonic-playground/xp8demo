@@ -1,1 +1,5 @@
+kind: Application
+title: XP8 Demo Application
 description: "Application to demonstrate XP8 Universal API"
+vendorName:  Enonic AS
+vendorUrl: "https://www.enonic.com"
