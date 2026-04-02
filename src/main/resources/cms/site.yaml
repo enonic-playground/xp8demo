@@ -1,0 +1,8 @@
+kind: "Site"
+mappings:
+- controller: "/lib/example.js"
+  order: 50
+  pattern: "/.*"
+#apis:
+#- demoapi
+#- com.enonic.app.guillotine:graphql

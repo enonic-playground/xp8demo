@@ -1,0 +1,5 @@
+kind: "Application"
+title: "XP8 Demo Application"
+description: "Application to demonstrate XP8 Universal API"
+vendorName: "Acme Inc"
+vendorUrl: "https://example.com"
